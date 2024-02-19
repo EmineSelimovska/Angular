@@ -59,3 +59,19 @@ class Person extends Human {
 
 const personPesho = new Person('Pesho', 33);
 personPesho.speak();
+
+
+function getIdentity<T>(id: T) {
+    console.log(id);
+    
+}
+getIdentity<string>("123");
+getIdentity<number>(123);
+
+enum PaymentStatus{
+    Failed,
+    Successful,
+    Pending
+}
+
+PaymentStatus.
