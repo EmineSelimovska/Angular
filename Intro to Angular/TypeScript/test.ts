@@ -73,5 +73,3 @@ enum PaymentStatus{
     Successful,
     Pending
 }
-
-PaymentStatus.
